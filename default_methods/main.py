@@ -1,6 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
-from functions import f, first, second
+from default_methods.functions import f, first, second
 from root_finding import bisection, newton, secant
 
 

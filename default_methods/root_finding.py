@@ -1,4 +1,4 @@
-from functions import f, first
+from default_methods.functions import f, first
 
 
 def bisection(a, b):
