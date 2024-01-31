@@ -1,8 +1,8 @@
-from functions import fun, first_derivative, second_derivative
+from modified_methods.functions import fun, first_derivative, second_derivative
 import random
 
 
-def bisection():
+def modified_bisection():
     a = 0.9
     b = 1.5
     i = 0
@@ -25,7 +25,7 @@ def bisection():
     print(f"Root is {m}, number of iterations {i}")
 
 
-def secant(x0, x1, x2):
+def modified_secant(x0, x1, x2):
     x = [x0, x1, x2]
 
     i = 0
@@ -64,7 +64,7 @@ def secant(x0, x1, x2):
     print(f"Root is {roots[len(roots) - 1]}, number of iterations {j}")
 
 
-def newton(x):
+def modified_newton(x):
 
     approx = []
     i = 0
